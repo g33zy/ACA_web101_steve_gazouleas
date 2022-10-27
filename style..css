@@ -1,13 +1,40 @@
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+.title--section {
+    display: grid;
+    margin: auto;
+    padding: 2px;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 20% 20% 20% 20%;
+
 }
 
-body { 
+.title--section figure{
+
+    margin: auto;
+    padding: 2px;
+    border: 2px solid black;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.subtitle--section{
+    border: 2px blue;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 1;
     background-color: lightblue;
-    display: flex;
-    justify-content: center;
-    align align-items: center;
+
+}
+
+h1{
+    display: grid;
+    border: 2px solid red;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+li{
+    list-style-type: lower-greek;
+}
+
+.main{ 
+    display: inline-grid;
 }
