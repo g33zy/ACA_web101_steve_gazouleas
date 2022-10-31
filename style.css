@@ -10,9 +10,7 @@ body {
     grid-row-start: 1;
     grid-row-end: 2;
     width: 100%;
-    display: flex;
-    justify-content: space-around;
-
+    
 }
 
 .title--section figure{
@@ -24,7 +22,8 @@ body {
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
-   
+    display: inline-block;
+    margin-left: 100px;
 }
 
 .headshot{
@@ -50,6 +49,8 @@ body {
     grid-row-end: 2;
     grid-column-end: 3;
     grid-row-start: 1;
+    display: inline-block;
+    margin-left: 20em;
     
 
 }
@@ -61,13 +62,26 @@ body {
     grid-column-end: 3;
     grid-row-start: 1;
     font-size: 40px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
     
 }
 li{
     list-style-type: disc;
 }
 
+.contact--list > li{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 300px;
+}
+
+.li-li-img {
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    padding: 10px;
+}
 main{ 
     display: grid;
     gap: 1.5rem;
@@ -86,7 +100,6 @@ main{
 }
 
 .expertise--section{
-    border: 4px solid rgb(35, 253, 133);
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
